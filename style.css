@@ -1,0 +1,311 @@
+*  {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    margin: 0;
+}
+
+
+/* navigation */
+.navigation {
+    padding: 0px 7% 0 13%;
+    height: 6rem;
+    display: flex;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left:0;
+    right:0;
+}
+/* insta logo */
+.insta-logo {
+    padding-top: 25px;
+    width :33% ;
+    float: left;
+}
+#instag-logo {
+    width: 30%;
+}
+/* search bar */
+.search {
+    display: flex;
+    width :27% ;
+    align-items: center;
+}
+.search-icon {
+    height: 56px;
+    width: 54px;
+    background-color: #f0ebdf;
+    border-radius: 13px 0 0 13px;
+}
+
+#search-img {
+    padding: 10px;
+    width: 48px;
+    margin-top: 7px;
+}
+#search-bar {
+    margin-left: 0px;
+    background-color: #f0ebdf;
+    border: none;
+    border-radius: 0px 13px 13px 0;
+    height: 55px;
+    width: 21rem;
+    font-size: 21px;
+}
+/* menu icons */
+.menus {
+    width :34% ;
+    align-items: center;
+    display: flex;
+}
+.icon {
+    height: 37px;
+    margin-left: 34px;
+}
+.profile {
+    height: 38px;
+    width: 38px;
+    margin-left: 32px;
+    border-radius: 50%;
+}
+.prof-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+/* body  */
+.content-container {
+    margin: 0 13%;
+    display: flex;
+}
+.main-page {
+width: 62%;
+}
+
+
+/* story profiles */
+.story-box {
+    width: 100%;
+    height: 10rem;
+    margin-top: 125px;
+    margin-bottom: 25px;
+    align-items: center;
+    border: 1px;
+    border-style: solid;
+    border-color: lightgray;
+    display: flex;
+    background-color: white;
+}
+.story1 {
+    height: 100%;
+    width: 9.3rem;
+    display: grid;
+}
+#profile-1 {
+    margin-top: 20px;
+    height: 5.5rem;
+    width: 5.5rem;
+    border-radius: 50%;
+    margin-left: 43px;
+    border: 3px;
+    border-style: solid;
+    border-color: #ff0335;
+}
+.name {
+    padding-left: 51px;
+    font-size: 20px;
+    margin: 0;
+    font-family: sans-serif;
+}
+.name2 {
+    padding-left: 57px;
+}
+.name3{
+    padding-left: 69px
+}
+.name4 {
+    padding-left: 40px;
+}
+.name5 {
+    padding-left: 61px;
+}
+.name6 {
+    padding-left: 55px;
+}
+ /* posts */
+.post-box1 {
+    width: 100%;
+    border: 2px solid;
+    border-color: lightgray;
+    margin-bottom: 40px;
+}
+/* post 1 */
+.post-head {
+    height: 5rem;
+    align-items: center;
+    display: flex;
+    
+}
+.post1-logo {
+    border-radius: 50%;
+    width: 44px;
+    border: 2px solid;
+    border-color: #ff0335;
+    margin-top: 2px;
+    margin-left: 26px;
+}
+#post1-name {
+    font-size: 20px;
+    margin-left: 26px;
+    margin-top: 2px;
+    font-family: sans-serif;
+}
+#post-menu {
+    margin-left: auto;
+    margin-right: 32px;
+    font-size: 36px;
+    margin-bottom: 23px;
+}
+.post-img {
+    width: 100%;
+}
+/* post botoom icon  */
+.post-bottom-icons {
+    height: 5rem;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+}
+.post-icon {
+    width: 39px;
+    margin-right: 15px;
+}
+.bookmark {
+    margin-left: 650px;
+}
+
+/* post description  */
+.post-description {
+    height: 15rem;
+    padding-left: 22px;
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 31px;
+
+}
+/* post comment  */
+.post-comment {
+    height: 5rem;
+    border-top: 1px solid;
+    border-color: lightgray;
+    padding: 10px;
+    display: flex;
+}
+#comment-icon {
+    height: 44px;
+    width: 44px;
+    margin-top: 8px;
+    margin-right: 18px;
+}
+.comment-box {
+    height: 52px;
+    margin-top: 4px;
+    width: 764px;
+    border: none;
+    font-size: 19px;
+    outline: none;
+}
+#post {
+    margin-top: 14px;
+    font-size: 22px;
+    text-decoration: none;
+    color: skyblue;
+    font-family: sans-serif;
+}
+
+/* side bar  */
+.side-bar {
+    width: 23%;
+    background-color: white;
+    height: 75rem;
+    position: fixed;
+    right: 23rem;
+    top: 6rem;
+}
+/* side profile  */
+.side-profile {
+    height: 5rem;
+    background-color: white;
+    margin-top: 67px;
+    display: flex;
+}
+#messi-profile {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 36px;
+}
+#messi-profile-name {
+    margin-left: 42px;
+    margin-top: 24px;
+    font-size: 19px;
+    font-family: sans-serif;
+}
+#switch {
+    font-weight: 500;
+    margin-left: 122px;
+    /* bottom of profile  */
+}
+.sugg {
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+#suggestion {
+    font-size: 23px;
+    margin-left: 19px;
+    color: gray;
+}
+#suggestion-all {
+    font-size: 20px;
+    margin-left: 121px;
+}
+
+/* follow section  */
+.follow{
+    background-color:white;
+    height: 60px;
+    margin-top: 24px;
+    display: flex;
+    margin-bottom: 16px;
+}
+.follow-img {
+    width: 60px;
+    height: 60px;
+    margin-left: 33px;
+    border-radius: 50%;
+}
+.follow-name {
+    font-size: 19px;
+    font-family: sans-serif;
+    margin-left: 19px;
+    margin-top: 18px;
+}
+.follow-tag {
+    margin-left: 124px;
+    color:rgb(7, 208, 208) ;
+}
+.tag1 {
+    margin-left: 160px;
+}
+.tag2 {
+    margin-left: 145px;
+}
+.tag3 {
+    margin-left: 137px;
+}
